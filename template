@@ -1,0 +1,12 @@
+#! /bin/bash
+echo -e "Please provide filename you want create: \c"
+read -r file
+touch /home/ashok/github_repos/shell_Scripting/$file.sh
+echo '#!/bin/bash' > /home/ashok/github_repos/shell_Scripting/$file.sh
+echo '#Purpose:' >> /home/ashok/github_repos/shell_Scripting/$file.sh
+echo '#Version:' >> /home/ashok/github_repos/shell_Scripting/$file.sh
+echo '#Created Date:' `date`  >> /home/ashok/github_repos/shell_Scripting/$file.sh
+echo '#Modified Date:'  >> /home/ashok/github_repos/shell_Scripting/$file.sh
+echo '#Author: Ashok Kumar ' >> /home/ashok/github_repos/shell_Scripting/$file.sh
+echo '#START #' >> /home/ashok/github_repos/shell_Scripting/$file.sh
+echo '# END #' >> /home/ashok/github_repos/shell_Scripting/$file.sh
