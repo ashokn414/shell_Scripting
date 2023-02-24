@@ -2,6 +2,7 @@
 echo -e "Please provide filename you want create: \c"
 read -r file
 touch /home/ashok/github_repos/shell_Scripting/$file.sh
+chmod +x /home/ashok/github_repos/shell_Scripting/$file.sh
 echo '#!/bin/bash' > /home/ashok/github_repos/shell_Scripting/$file.sh
 echo '#Purpose:' >> /home/ashok/github_repos/shell_Scripting/$file.sh
 echo '#Version:' >> /home/ashok/github_repos/shell_Scripting/$file.sh
